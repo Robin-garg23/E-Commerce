@@ -18,7 +18,7 @@ import OrderFailure from "./Components/Cart/OrderFailure";
 import OrderSuccess from "./Components/Cart/OrderSuccess";
 import MyProfile from "./Components/MyProfile/MyProfile";
 
-function App() {
+const App = () => {
   const [text, setText] = React.useState();
   const [pdfid, setPdfid] = useState();
   const [sessionId, setSessionId] = useState();
