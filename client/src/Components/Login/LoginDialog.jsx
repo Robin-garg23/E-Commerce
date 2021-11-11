@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Dialog, DialogContent, TextField, Box, Button, makeStyles, Typography } from '@material-ui/core';
 import { authenticateLogin, authenticateSignup, sendOtpRequest } from '../../service/api';
-import Modal from "@mui/material/Modal";
-// import { alertService } from '../_services';
 import axios from "axios";
 
 const useStyle = makeStyles({
