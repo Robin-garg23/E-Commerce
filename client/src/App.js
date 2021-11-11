@@ -15,7 +15,6 @@ import UploadProduct from "./Components/ItemDetails/UploadProduct";
 import { Box } from "@material-ui/core";
 import Checkout from "./Components/Cart/Checkout";
 import OrderFailure from "./Components/Cart/OrderFailure";
-import Admin from "./Components/Admin/Admin";
 import OrderSuccess from "./Components/Cart/OrderSuccess";
 import MyProfile from "./Components/MyProfile/MyProfile";
 
