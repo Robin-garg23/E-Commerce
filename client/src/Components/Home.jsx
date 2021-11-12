@@ -1,5 +1,5 @@
 import { Box, makeStyles } from '@material-ui/core';
-import NavBar from './Home/NarBar';
+// import NavBar from './Home/NarBar';
 
 // import Slide from './Home/Slide';
 import React,  { useEffect } from 'react';
@@ -29,7 +29,7 @@ const Home = () => {
 
     return (
         <>
-            <NavBar />
+            {/* <NavBar /> */}
             <Products />
             <Box className={classes.component}>
                 {/* <Banner /> */}

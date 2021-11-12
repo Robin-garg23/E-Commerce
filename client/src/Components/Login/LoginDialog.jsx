@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Dialog, DialogContent, TextField, Box, Button, makeStyles, Typography } from '@material-ui/core';
 import { authenticateLogin, authenticateSignup, sendOtpRequest } from '../../service/api';
-import Modal from "@mui/material/Modal";
+import Modal from "@material-ui/core/Modal";
 // import { alertService } from '../_services';
 import axios from "axios";
 
