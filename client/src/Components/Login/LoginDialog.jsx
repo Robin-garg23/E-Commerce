@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Dialog, DialogContent, TextField, Box, Button, makeStyles, Typography } from '@material-ui/core';
 import { authenticateLogin, authenticateSignup, sendOtpRequest } from '../../service/api';
-import Modal from "@material-ui/core/Modal";
-// import { alertService } from '../_services';
+
 import axios from "axios";
 
 const useStyle = makeStyles({
@@ -108,10 +107,10 @@ const LoginDialog = ({ open, setOpen, setAccount }) => {
     const [ error2, showError2] = useState(false);
     const [ error3, showError3] = useState(false);
     const [ account, toggleAccount ] = useState(accountInitialValues.login);
-    const [openModal, setOpenModal] = React.useState(false);
+
     const [ otp, setOtp] = useState("");
     const [ isverify, setIsverify] = useState();
-    const handleOpen = () => setOpenModal(true);
+ 
 
     useEffect(() => {
         showError(false);

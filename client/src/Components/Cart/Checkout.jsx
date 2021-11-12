@@ -1,13 +1,10 @@
-import { Box, makeStyles, Typography, Button, Grid } from '@material-ui/core';
+import { makeStyles, Typography, Button, Grid } from '@material-ui/core';
 
 import React, { useState } from 'react';
-import { useEffect } from 'react';
-import { checkoutCart, payUsingStripe } from '../../service/api';
+import { payUsingStripe } from '../../service/api';
 import axios from 'axios'
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 
 const useStyle = makeStyles(theme => ({
 

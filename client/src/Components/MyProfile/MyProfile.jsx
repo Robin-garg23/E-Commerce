@@ -1,8 +1,7 @@
 import { makeStyles } from '@material-ui/core';
 import React, {useState} from 'react';
-import { Typography, Grid, Paper, TextField, Button, TableCell, TableRow, TableBody, TableHead, Box, Table, TablePagination } from '@material-ui/core';
+import { Grid, Paper, TextField, Button } from '@material-ui/core';
 import axios from 'axios';
-import { Link  } from 'react-router-dom';
 import { useEffect } from "react";
 
 const useStyle = makeStyles({
@@ -28,7 +27,7 @@ const MyProfile = () => {
     const [lastName, setLastName] = useState();
     const [gender, setGender] = useState();
     const [email, setEmail] = useState();
-    const [password, setPassword] = useState();
+    // const [password, setPassword] = useState();
     const [gstNumber, setGstNumber] = useState();
     const [panNumber, setPanNumber] = useState();
     const [phoneNumber, setPhoneNumber] = useState();    

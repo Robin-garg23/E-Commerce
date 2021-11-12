@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import SearchIcon from '@material-ui/icons/Search';
-import { makeStyles, fade, InputBase, List, ListItem } from '@material-ui/core';
+import { makeStyles,  InputBase, List, ListItem } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import { getProducts } from '../../service/api';
-import Products from '../Home/Products';
+
 
 const useStyle = makeStyles(theme => ({
     search: {

@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios';
-import { Typography, Grid, Paper, TextField, Button, TableCell, TableRow, TableBody, TableHead,Modal, Box, Table, TablePagination } from '@material-ui/core';
+import { Typography, Button, TableCell, TableRow, TableBody, TableHead,Modal, Box, Table, TablePagination } from '@material-ui/core';
 
 import PerfectScrollbar from 'react-perfect-scrollbar';
-import { Link  } from 'react-router-dom';
+
 const style = {
     // position: 'absolute',
     top: '50%',
@@ -19,7 +19,7 @@ const AllUser = () => {
     const [mainData, setMainData] = useState();
 
   const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
+  
   const handleClose = () => setOpen(false);
     useEffect(()=>{
       const userId = localStorage.getItem("userId");

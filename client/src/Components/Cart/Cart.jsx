@@ -1,17 +1,12 @@
-import { Box, makeStyles, Typography, Button, Grid } from '@material-ui/core';
+import {  makeStyles, Typography, Button, Grid } from '@material-ui/core';
 
 import React, { useState } from 'react';
 import { Redirect } from "react-router-dom";
-// import TotalView from './TotalView';
 import EmptyCart from './EmptyCart';
 import { Link } from 'react-router-dom';
-// import { post } from '../../utils/paytm';
-import { checkoutCart, payUsingPaytm } from '../../service/api';
 import axios from 'axios'
 import Card from '@material-ui/core/card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core';
 
 const useStyle = makeStyles(theme => ({
 
