@@ -4,10 +4,10 @@ import React, { useState } from 'react';
 import { useEffect } from 'react';
 import { checkoutCart, payUsingStripe } from '../../service/api';
 import axios from 'axios'
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
 
 const useStyle = makeStyles(theme => ({
 

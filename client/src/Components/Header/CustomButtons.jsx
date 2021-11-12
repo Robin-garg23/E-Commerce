@@ -5,11 +5,11 @@ import { ShoppingCart } from "@material-ui/icons";
 import { useEffect } from "react";
 import LoginDialog from "../Login/LoginDialog";
 import { LoginContext } from "../../context/ContextProvider";
-import Modal from "@mui/material/Modal";
-import TextField from "@mui/material/TextField";
+import Modal from "@material-ui/core/Modal";
+import TextField from "@material-ui/core/TextField";
 
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
 
 import Profile from "./Profile";
 // import { useNavigate } from 'react-router-dom';
