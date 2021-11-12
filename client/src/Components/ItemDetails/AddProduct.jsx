@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import { Typography, Grid, Paper, TextField, Button, TableCell, TableRow, TableBody, TableHead, Box, Table, TablePagination } from '@material-ui/core';
+import {  Grid, Paper, TextField, Button} from '@material-ui/core';
 import axios from 'axios';
-import { Link  } from 'react-router-dom';
+
 
 const AddProduct = ({pdfid}) => {
 
@@ -12,8 +12,8 @@ const AddProduct = ({pdfid}) => {
     const [category, setCategory] = useState();
     const [images, setImages] = useState();
     const [pic, setPic] = useState([]);
-    const [imageBinary, setImageBinary] = useState();
-    const [checkIng, setCheckImg] = useState();
+    // const [imageBinary, setImageBinary] = useState();
+    // const [checkIng, setCheckImg] = useState();
 
     const changeHandler = (e) => {
         setPic([...pic, e.target.files[0]])

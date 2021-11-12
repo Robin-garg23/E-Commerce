@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Typography, Menu, MenuItem, makeStyles } from '@material-ui/core';
 import { PowerSettingsNew } from '@material-ui/icons';
-import { Theme } from '@material-ui/core';
+
 
 const useStyle = makeStyles((theme) => ({
     component: {

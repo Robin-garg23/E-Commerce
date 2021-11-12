@@ -1,4 +1,4 @@
-import { AppBar, Toolbar, makeStyles, Box, Typography, withStyles, IconButton, Drawer, List, ListItem} from '@material-ui/core';
+import { AppBar, Toolbar, makeStyles, Box, withStyles, IconButton, Drawer, List} from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import CustomButtons from './CustomButtons';
 import Search from './Search';
@@ -57,7 +57,7 @@ const ToolBar = withStyles({
 const Header = ({text, setText}) => {
     const classes = useStyle();
     const logoURL = 'https://i.ibb.co/bPdCGWd/LOGO.png';
-    const subURL = 'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png';
+    // const subURL = 'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png';
 
     const [open, setOpen] = useState(false);
 

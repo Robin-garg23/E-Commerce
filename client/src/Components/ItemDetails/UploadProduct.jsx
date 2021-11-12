@@ -1,21 +1,14 @@
 import React, {useState} from 'react';
-import { Typography, Grid, Paper, TextField, Button, TableCell, TableRow, TableBody, TableHead, Box, Table, TablePagination } from '@material-ui/core';
+import { Typography, Button, TableCell, TableRow, TableBody, TableHead, Box, Table, TablePagination } from '@material-ui/core';
 import axios from 'axios';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import { Link  } from 'react-router-dom';
-import { makeStyles } from '@material-ui/core';
 
-const useStyle = makeStyles(theme => ({
-  container: {
-      display: 'flex',
-      [theme.breakpoints.down('sm')]: {
-          display: 'block'
-      }
-  },
-}));
+
+
 
 const UploadProduct = ({setPdfid}) => {
-  const classes = useStyle();
+
     const [pdfhere, setPdfhere] = useState();
     const [mainData, setMainData] = useState([]);
     const [limit, setLimit] = useState(10);

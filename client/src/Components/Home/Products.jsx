@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { getProducts } from "../../service/api";
 import {
-  Box,
   Typography,
   makeStyles,
-  CircularProgress,
   Button,
   Grid,
 } from "@material-ui/core";
@@ -14,7 +12,6 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 
-import Axios from "axios";
 const useStyles = makeStyles((theme) => ({
   component: {
     marginTop: 55,
@@ -48,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
 const Products = ({text, setText}) => {
   const [products, setProducts] = useState([]);
   console.log(text, "{{}}")
-  const [searchWord,setSearchWord] = useState("");
+  // const [searchWord,setSearchWord] = useState("");
   const classes = useStyles();
   const fetchProducts = async () => {
     let { data } =text?  await getProducts(text): await getProducts("");
