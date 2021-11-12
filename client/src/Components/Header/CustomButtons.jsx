@@ -5,7 +5,6 @@ import { ShoppingCart } from "@material-ui/icons";
 import { useEffect } from "react";
 import LoginDialog from "../Login/LoginDialog";
 import { LoginContext } from "../../context/ContextProvider";
-import { useSelector } from "react-redux";
 import Modal from "@mui/material/Modal";
 import TextField from "@mui/material/TextField";
 

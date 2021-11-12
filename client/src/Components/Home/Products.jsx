@@ -9,7 +9,6 @@ import {
   Grid,
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';

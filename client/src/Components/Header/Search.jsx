@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import SearchIcon from '@material-ui/icons/Search';
 import { makeStyles, fade, InputBase, List, ListItem } from '@material-ui/core';
-// import { useSelector, useDispatch } from 'react-redux'; // hooks
-// import { getProducts as listProducts } from '../../redux/actions/productActions';
 import { Link } from 'react-router-dom';
 import { getProducts } from '../../service/api';
 import Products from '../Home/Products';
