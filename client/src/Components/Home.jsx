@@ -5,8 +5,6 @@ import MidSlide from './Home/MidSlide';
 import MidSection from './Home/MidSection';
 // import Slide from './Home/Slide';
 import React,  { useEffect } from 'react';
-// import { useSelector, useDispatch } from 'react-redux'; // hooks
-// import { getProducts as listProducts } from '../redux/actions/productActions';
 import Products from './Home/Products';
 
 const useStyle = makeStyles({

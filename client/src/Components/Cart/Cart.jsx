@@ -1,8 +1,6 @@
 import { Box, makeStyles, Typography, Button, Grid } from '@material-ui/core';
 
 import React, { useState } from 'react';
-import { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
 import { Redirect } from "react-router-dom";
 // import TotalView from './TotalView';
 import EmptyCart from './EmptyCart';
